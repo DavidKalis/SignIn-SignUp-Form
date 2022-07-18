@@ -1,0 +1,15 @@
+{
+  "name": "sign-upform",
+  "version": "1.0.0",
+  "description": "a sign up form",
+  "default": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+
+  "author": "DavidK",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
